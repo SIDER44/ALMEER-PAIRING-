@@ -1,0 +1,14 @@
+{
+  "name": "almeer-xmd-pair",
+  "version": "1.0.0",
+  "main": "pairing-server.js",
+  "scripts": {
+    "start": "node pairing-server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1",
+    "pino": "^8.0.0"
+  }
+}
