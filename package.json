@@ -5,10 +5,13 @@
   "scripts": {
     "start": "node pairing-server.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0",
+    "@whiskeysockets/baileys": "6.7.8",
     "express": "^4.19.2",
     "uuid": "^9.0.1",
-    "pino": "^8.0.0"
+    "pino": "^8.17.0"
   }
 }
